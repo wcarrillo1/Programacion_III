@@ -57,7 +57,7 @@ public class ArbolesBinarios {
         }else{
             postOrden(nodo.getLeftNodo());
             postOrden(nodo.getRightNodo());
-            System.out.print(nodo.getData()+" ");
+            System.out.print(nodo.getData()+" ");      
            
         }
     }
@@ -84,12 +84,7 @@ public class ArbolesBinarios {
         tree.printPostOrden();
         System.out.println("");
         System.out.println("Recorrido Preorden : ");
-        tree.printPreOrden();
-       
-      
-         
-        
-        
+        tree.printPreOrden(); 
         
     }
 }
